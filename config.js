@@ -8,31 +8,31 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['5493711419816', '👑 Mystic - Creador 👑', true],
-  ['5493711419816', '💫 Mystic - Collaborator 1 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 2 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 3 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 4 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 5 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 6 💫', true],
-  ['5493711419816', '💫 Mystic - Collaborator 7 💫', false],
-  ['5493711419816', '💫 Mystic - Collaborator 8 💫', true],
-  ['5493711419816','💫 Mystic - Tester Fabri115💫', true],
-  ['5493711419816'],
-  ['5493711419816'],
-  ['5493711419816'],
-  ['5493711419816'],
-  ['5493711419816'],
-  ['5218442114446'],
-  ['5493711419816'],
-  ['5493711419816'], 
-  ['5493711419816'],  
-  ['5493711419816'], 
-  ['5493711419816']
+  ['5493711419554', '👑 Mystic - Creador 👑', true],
+  ['5493711419554', '💫 Mystic - Collaborator 1 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 2 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 3 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 4 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 5 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 6 💫', true],
+  ['5493711419554', '💫 Mystic - Collaborator 7 💫', false],
+  ['5493711419554', '💫 Mystic - Collaborator 8 💫', true],
+  ['5493711419554','💫 Mystic - Tester Fabri115💫', true],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'],
+  ['5493711419554'], 
+  ['5493711419554'],  
+  ['5493711419554'], 
+  ['5493711419554']
 ];
 
-global.suittag = ['5493711419816'];
-global.prems = ['5493711419816'];
+global.suittag = ['5493711419554'];
+global.prems = ['5493711419554'];
 
 global.packname = '(☞ﾟ∀ﾟ)☞';
 global.author = '★DIEGO-AD★';
@@ -68,7 +68,7 @@ global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
-global.nomorown = '5219993404349';
+global.nomorown = '5493711419554';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';

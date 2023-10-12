@@ -25,7 +25,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
 ╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *Diego*
-╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+54 9 3711 41-9816*
+╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+54 9 3711 41-9554*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
 ╠➥ [🦜] 𝙲𝙷𝙰𝚃𝚂 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: *${groups.length}* 
