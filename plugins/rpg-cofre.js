@@ -19,7 +19,7 @@ const handler = async (m, {isPrems, conn}) => {
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║➢ *${dia} Diamantes* 💎
 ║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} 𝐃𝐢𝐞𝐠𝐨-𝐀𝐃* 👾
+║➢ *${mystic} 𝐁𝐨𝐧𝐧𝐢* 👾
 ║➢ *${expp} Exp* ⚡
 ╚═════════════════⬣`;
 

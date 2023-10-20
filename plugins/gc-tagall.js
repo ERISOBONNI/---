@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `𝐑𝐄𝐕𝐈𝐕𝐀𝐍 𝐌𝐀𝐍𝐂𝐎𝐒: ${pesan}`;
-  let teks = `*☯️Creador Wa.me/5493711419554 SI QUIERES BOT COMUNICAME☯️*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  const oi = `✨🍄𝐀𝐂𝐓𝐈𝐕𝐄𝐍 𝐇𝐎𝐍𝐆𝐔𝐈𝐓𝐎𝐒🍄✨  : ${pesan}`;
+  let teks = `*😜Creador Wa.me/5493487587250 SI QUIERES BOT COMUNICAME😜*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
   for (const mem of participants) {
-    teks += `☯️ @${mem.id.split('@')[0]}\n`;
+    teks += `😜 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `└𝐃𝐢𝐞𝐠𝐨-𝐀𝐃\n\n`;
+  teks += `└𝐁𝐨𝐧𝐧𝐢\n\n`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
