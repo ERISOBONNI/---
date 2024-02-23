@@ -24,7 +24,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *𝐁𝐨𝐧𝐧𝐢*
+╠➥ [🤴🏻] 𝙲𝚁𝙴𝙰𝙳𝙾𝚁: *👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑*
 ╠➥ [#️⃣] 𝙽𝚄𝙼𝙴𝚁𝙾: *+54 93487 58-7250
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] 𝙲𝙷𝙰𝚃𝚂 𝙿𝚁𝙸𝚅𝙰𝙳𝙾𝚂: *${chats.length - groups.length}*
@@ -43,7 +43,7 @@ const handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝐁𝐨𝐧𝐧𝐢 〙 ═
+╠═〘 👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑 〙 ═
 `.trim();
   const doc = [
     "pdf",
@@ -56,7 +56,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
     mimetype: `application/${document}`,
-    fileName: `「  𝐁𝐨𝐧𝐧𝐢 」`,
+    fileName: `「  👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑 」`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {

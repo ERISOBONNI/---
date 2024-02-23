@@ -5,12 +5,13 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `✨🍄𝐀𝐂𝐓𝐈𝐕𝐄𝐍 𝐇𝐎𝐍𝐆𝐔𝐈𝐓𝐎𝐒🍄✨  : ${pesan}`;
-  let teks = `*😜Creador Wa.me/5493487587250 SI QUIERES BOT COMUNICAME😜*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  const oi = `🤗 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐𝒔 𝒂 𝑵𝒊𝒈𝒕𝒉𝒎𝒂𝒓𝒆𝒔 𝑺𝒖𝒓. 𝑳𝒂 𝒍𝒊𝒅𝒆𝒓 𝑩𝒐𝒏𝒏𝒊💕 𝒍𝒐𝒔 𝒔𝒂𝒍𝒖𝒅𝒂 ✨
+  𝐃𝐞𝐬𝐩𝐢𝐞𝐫𝐭𝐞𝐧 𝐛𝐨𝐭𝐜𝐢𝐭𝐨𝐬 🤖 𝐍𝐢𝐠𝐭𝐡𝐦𝐚𝐫𝐞𝐬 𝐥𝐨𝐬 𝐢𝐧𝐯𝐨𝐜𝐚𝐧 😉  : ${pesan}`;
+  let teks = `*💜💚Creador Wa.me/5493487548846 SI QUIERES BOT COMUNICAME💚💜*\n\n❏ ${oi}\n\n❏ *𝙼𝚎𝚗𝚌𝚒𝚘𝚗 𝚐𝚎𝚗𝚎𝚛𝚊𝚕.*\n`;
   for (const mem of participants) {
-    teks += `😜 @${mem.id.split('@')[0]}\n`;
+    teks += `🐛🦋 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `└𝐁𝐨𝐧𝐧𝐢\n\n`;
+  teks += `└👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑\n\n`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];

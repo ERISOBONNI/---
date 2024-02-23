@@ -35,11 +35,11 @@ global.suittag = ['5493711419554'];
 global.prems = ['5493711419554'];
 
 global.packname = '(☞ﾟ∀ﾟ)☞';
-global.author = '★DIEGO-AD★';
-global.wm = '★DIEGO-AD★';
-global.titulowm = '🤖 DIEGO-AD 🤖';
-global.titulowm2 = `乂  DIEGO-ADD 𝚃  乂`
-global.igfg = '★DIEGO-AD★';
+global.author = '👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑';
+global.wm = '👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑';
+global.titulowm = '🤖 👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑 🤖';
+global.titulowm2 = `乂  👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑  乂`
+global.igfg = '👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -60,7 +60,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐃𝐢𝐞𝐠𝐨-𝐀𝐃`;
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 👑𝙱𝚈 𝙱𝙾𝙽𝙽𝙸 𝙱𝙴𝙱𝙴́👑`;
 global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
 global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
