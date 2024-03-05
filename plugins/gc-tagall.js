@@ -5,10 +5,10 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `🤗 𝐌𝐢 𝐚𝐦𝐨𝐫... 𝐄𝐬 𝐪𝐮𝐞 𝐮𝐬𝐭𝐞𝐝 𝐬𝐞 𝐚𝐥𝐞𝐣𝐨 𝐦𝐮𝐜𝐡𝐨★𝐲 𝐲𝐨 𝐝𝐞 𝐥𝐞𝐣𝐨𝐬 𝐧𝐨 𝐯𝐞𝐨 𝐛𝐞𝐛𝐞́★ 🤖 𝐍𝐢𝐠𝐭𝐡𝐦𝐚𝐫𝐞𝐬 𝐥𝐨𝐬 𝐢𝐧𝐯𝐨𝐜𝐚𝐧 😉  : ${pesan}`;
-  let teks = `*💜💚Creador Wa.me/5493487548846 SI QUIERES BOT COMUNICAME💚💜*\n\n❏ ${oi}\n\n❏ *𝙼𝚎𝚗𝚌𝚒𝚘𝚗 𝚐𝚎𝚗𝚎𝚛𝚊𝚕.*\n`;
+  const oi = `🤗 𝐌𝐢 𝐚𝐦𝐨𝐫... 𝐄𝐬 𝐪𝐮𝐞 𝐮𝐬𝐭𝐞𝐝 𝐬𝐞 𝐚𝐥𝐞𝐣𝐨 𝐦𝐮𝐜𝐡𝐨★𝐲 𝐲𝐨 𝐝𝐞 𝐥𝐞𝐣𝐨𝐬 𝐧𝐨 𝐯𝐞𝐨 𝐛𝐞𝐛𝐞́★ 𝐁𝐨𝐦𝐛𝐨𝐧 💋  : ${pesan}`;
+  let teks = `*💜💚𝐘 𝐝𝐚𝐦𝐞 𝐝𝐚𝐦𝐞 𝐝𝐚𝐦𝐞 𝐭𝐨𝐝𝐚 𝐭𝐮 𝐝𝐮𝐥𝐳𝐮𝐫𝐚 🎶*\n\n❏ ${oi}\n\n❏ *𝙼𝚎𝚗𝚌𝚒𝚘𝚗 𝚐𝚎𝚗𝚎𝚛𝚊𝚕.*\n`;
   for (const mem of participants) {
-    teks += `🐛🦋 @${mem.id.split('@')[0]}\n`;
+    teks += `🧸💫 @${mem.id.split('@')[0]}\n`;
   }
   teks += `└👑𝐘 𝐝𝐚𝐦𝐞 𝐝𝐚𝐦𝐞 𝐝𝐚𝐦𝐞 𝐭𝐨𝐝𝐚 𝐭𝐮 𝐝𝐮𝐥𝐳𝐮𝐫𝐚 🎶\n\n`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
